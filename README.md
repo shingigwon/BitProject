@@ -4,4 +4,4 @@
 1. WCF를 활용하여 클라이언트와의 통신을 위한 웹 서비스 서버 구현
 2. 데이터 처리를 하기 위한 SQL 저장 프로시저 설계 및 구현
 3. Python의 인공지능 모델 서버 연동
-[4조 프로젝트 .pdf](https://github.com/user-attachments/files/18627877/4.pdf)
+- [4조 프로젝트 .pdf](https://github.com/user-attachments/files/18627877/4.pdf)
