@@ -1,0 +1,11 @@
+D:\Chat_Server\Chat_Server\bin\Debug\Chat_Server.exe.config
+D:\Chat_Server\Chat_Server\bin\Debug\Chat_Server.exe
+D:\Chat_Server\Chat_Server\bin\Debug\Chat_Server.pdb
+D:\Chat_Server\Chat_Server\bin\Debug\Python.Runtime.dll
+D:\Chat_Server\Chat_Server\bin\Debug\Python.Runtime.xml
+D:\Chat_Server\Chat_Server\obj\Debug\Chat_Server.csproj.AssemblyReference.cache
+D:\Chat_Server\Chat_Server\obj\Debug\Chat_Server.csproj.SuggestedBindingRedirects.cache
+D:\Chat_Server\Chat_Server\obj\Debug\Chat_Server.csproj.CoreCompileInputs.cache
+D:\Chat_Server\Chat_Server\obj\Debug\Chat_Server.csproj.CopyComplete
+D:\Chat_Server\Chat_Server\obj\Debug\Chat_Server.exe
+D:\Chat_Server\Chat_Server\obj\Debug\Chat_Server.pdb

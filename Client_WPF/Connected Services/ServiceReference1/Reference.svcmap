@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="82732797-369d-45c3-a5ad-3f7e63596973" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.101.34.90:9000/Service" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ChatService.wsdl" MetadataType="Wsdl" ID="a668ea5a-5ea7-4d49-a319-f846be7e5a24" SourceId="1" SourceUrl="http://10.101.34.90:9000/Service?wsdl" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="033fd94b-5530-4bdc-8b13-f6af2e6b6770" SourceId="1" SourceUrl="http://10.101.34.90:9000/Service?disco" />
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="0d19cd81-1229-4f76-900c-aa0ca1150a87" SourceId="1" SourceUrl="http://10.101.34.90:9000/Service?xsd=xsd1" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="81656a10-6ffc-4764-b50d-477aa25375e8" SourceId="1" SourceUrl="http://10.101.34.90:9000/Service?xsd=xsd2" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="26e2edbf-8709-4e4d-820d-b4e8000f7bd1" SourceId="1" SourceUrl="http://10.101.34.90:9000/Service?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

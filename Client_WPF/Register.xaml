@@ -1,0 +1,68 @@
+﻿<Window x:Name="RGT" x:Class="MCB.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MCB"
+        mc:Ignorable="d"
+        Title="회원가입" Height="630" Width="636"
+        Closing="Window_Closing" ResizeMode="NoResize">
+    <Grid Background="CornflowerBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Background="White" BorderBrush="Transparent" 
+                BorderThickness="10"  CornerRadius="25" Grid.Row="1">
+            <Grid Margin="0,307,0,0">
+                <Button x:Name="btn_register" Content="가입하기" HorizontalAlignment="Left"
+                        FontFamily="나눔고딕" FontWeight="ExtraBold"
+                    Margin="42,0,0,0" FontSize="18" Background="LightYellow"
+                    VerticalAlignment="Center" Width="102" Height="58" Click="btn_register_Click"/>
+
+                <Button x:Name="btn_register_No" Content="가입취소" HorizontalAlignment="Left"
+                    FontFamily="나눔고딕" FontWeight="ExtraBold"
+                    Margin="474,0,0,0" FontSize="18" Background="LightCoral"
+                    VerticalAlignment="Center" Width="103" Height="58" Click="btn_register_No_Click"/>
+
+            </Grid>
+        </Border>
+        <Grid Margin="32,30,31,37" Grid.Row="0">
+            <TextBlock Text="ID" Margin="87,80,0,0" FontSize="25"
+                       FontFamily="나눔고딕" FontWeight="ExtraBold"
+                       VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <!--아이디 입력-->
+            <TextBox x:Name="text_id" HorizontalAlignment="Left" Margin="133,80,0,0"
+                     TextWrapping="Wrap"  
+                     VerticalAlignment="Top" Width="231" Height="30"/>
+            <!--아이디 중복확인-->
+            <Button Content="중복확인" HorizontalAlignment="Left"
+                    FontFamily="나눔고딕" FontWeight="ExtraBold"
+                    Margin="372,80,0,0"
+                    VerticalAlignment="Top" Width="69" Height="30" Click="Btn_IdCheck_Click_1"/>
+            <TextBlock Text="PW" Margin="72,132,0,0" FontSize="25"
+                FontFamily="나눔고딕" FontWeight="ExtraBold"
+                VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <!--비밀번호 입력-->
+            <PasswordBox x:Name="text_pw" HorizontalAlignment="Left" Margin="133,132,0,0" 
+                     VerticalAlignment="Top" Width="308" Height="30"/>
+            <!--비밀번호 확인-->
+            <PasswordBox Name="text_Checkpw"
+                HorizontalAlignment="Left" Margin="133,186,0,0" 
+                     VerticalAlignment="Top" Width="308" Height="30">
+            </PasswordBox>
+
+            <TextBlock Text="Name" Margin="38,239,0,0" FontSize="25"
+                FontFamily="나눔고딕" FontWeight="ExtraBold"
+                VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <TextBox Name="text_name" HorizontalAlignment="Left" Margin="133,239,0,0" 
+                TextWrapping="Wrap" 
+                VerticalAlignment="Top" Width="308" Height="30"/>
+            <TextBlock Text="PW CHECK" Margin="18,192,0,0" FontSize="20"
+                FontFamily="나눔고딕" FontWeight="ExtraBold"
+                VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        </Grid>
+        <Grid Margin="0,317,10,7">
+            <Image Source="/Resources/user.png" Margin="154,2,141,2"></Image>
+        </Grid>
+    </Grid>
+</Window>
